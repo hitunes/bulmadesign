@@ -1,0 +1,246 @@
+body > header > div{
+ 
+    margin-bottom: 50px;
+}
+
+.tile{
+    border-radius: 0;
+    height: 250px;
+}
+.shop{
+    position: absolute;
+    top: 55%;
+    left: 44%;
+    margin-top: -25px;
+     margin-left: -25px;
+     background: none;
+     border: 2px solid white;
+     padding: 5px 60px;
+     font-size: 20px;
+     color: brown;
+}
+.name{
+    position: absolute;
+    top: 30%;
+    left: 41%;
+    margin-top: -25px;
+     margin-left: -25px;
+
+}
+.men{
+    color: brown;
+    font-size: 50px;
+    font-weight: 800;
+    letter-spacing: 2px;
+}
+.collect{
+    color: white;
+    font-size: 50px;
+    font-weight: 800;
+    letter-spacing: 4px;
+}
+/* first row */
+ body > main > div > div:nth-child(1) > div.tile.is-parent.is-6{
+     background-image: url("../../assets/img/1.jpg");
+     margin: 10px 5px;
+ }
+ body > main > div > div:nth-child(1) > div:nth-child(2){
+    background-image: url("../../assets/img/2.jpg");
+    margin: 10px 5px;
+ }
+ body > main > div > div:nth-child(1) > div:nth-child(3){
+    background-image: url("../../assets/img/3.jpg");
+    margin: 10px 5px;
+ }
+ /* first row */
+
+ /* second */
+ body > main > div > div:nth-child(2) > div.tile.is-parent.is-8{
+    background-image: url("../../assets/img/4.jpg");
+    margin: 5px;
+    margin-bottom: 30px;
+ }
+ 
+ body > main > div > div:nth-child(2) > div.tile.is-parent.is-4{
+    background-image: url("../../assets/img/5.jpg");
+    margin: 5px;
+    margin-bottom: 30px;
+    padding: 0;
+ }
+ /* second */
+ body > main > div > div.is-divider.line::after{
+     font-size: 20px;
+     font-weight: 900;
+     color: black;
+     text-transform: uppercase;
+     margin-top: -6px;
+ }
+ /*divider  */
+ body > main > div > div.is-divider.line{
+     border-top: 2px solid black;
+    
+ }
+ /* divider */
+
+ /* third */
+
+ body > main > div > div:nth-child(4) > div:nth-child(1), div:nth-child(2), div:nth-child(3), div:nth-child(4){
+    
+    margin: 5px;
+    margin-bottom: 20px;
+ }
+
+ body > main > div > div:nth-child(4) > div> div.card-content{
+    padding: 2px;
+    margin-bottom: 20px;
+     }
+.red{
+    color: red;
+    font-size: 18px;
+    font-weight: 700;
+    display: flex;
+    float: left;
+}
+.stars{
+    float: right;
+}
+/* third */
+
+/* fourth */
+body > main > div > div:nth-child(6) > div:nth-child(1), div:nth-child(2), div:nth-child(3),div:nth-child(4){
+    
+    margin: 5px;
+    margin-bottom: 20px;
+ }
+ body > main > div > div:nth-child(4) > div > div.card-content{
+     margin-bottom: 30px;
+ }
+ body > main > div > div:nth-child(6) > div> div.card-content{
+padding: 2px;
+ }
+ body > main > div > div:nth-child(6) > div > div.card-content > div{
+     border-bottom: 1px solid black;
+     padding-bottom: 10px; 
+ }
+ body > main > div > div:nth-child(6) > div> div.card-content > div:nth-child(2){
+    border-bottom: 0;
+ }
+ body > main > div > div:nth-child(6) > div > div.card-content > div.content{
+     margin-bottom: 3px;
+ }
+ .date{
+     
+     font-size: 14px;
+     font-weight: 700;
+     padding-right: 20px;
+ }
+ .comment{
+    padding-left: 20px;
+    font-size: 14px;
+    font-weight: 700;
+ }
+/* fourth */
+/* fifth */
+body > main > div > div:nth-child(8) > div{
+    background-image: url("../../assets/img/2.jpg");
+    height: 150px;
+    padding: 5px;
+    margin: 5px;
+}
+
+/* fifth */
+
+/* footer */
+.footer{
+    min-height: 300px;
+    background: rgb(26, 25, 25);
+}
+body > footer > div > div >  div > div> p{
+    
+    color: white;
+    font-size: 15px;
+}
+/* section 1 */
+body > footer > div > div >  div > div:nth-child(1) > ul{
+    list-style: none;
+}
+body > footer > div > div > div >  div:nth-child(1) > ul > li{
+    color:darkgray;
+    margin: 20px 0;
+}
+body > footer > div >  div > div.columns > div:nth-child(1) > ul > li> span{
+    margin-right: 10px;
+}
+
+/* section 2 */
+body > footer > div > div >  div > div:nth-child(2) > ul{
+    list-style: none;
+}
+body > footer > div > div >  div > div:nth-child(2) > ul > li{
+    color:darkgray;
+    margin: 20px 0;
+}
+body > footer > div > div > div >  div:nth-child(3) > ul{
+    list-style: square;
+}
+
+
+/* section 3 */
+body > footer > div > div >  div > div:nth-child(3) > ul > li{
+    color: darkgray;
+    margin: 20px 0;
+}
+body > footer > div > div >  div > div:nth-child(4) > ul{
+    list-style: square;
+}
+body > footer > div > div > div >  div:nth-child(4) > ul > li{
+    color: darkgray;
+    margin: 20px 0;
+}
+
+
+/* secton 4 */
+body > footer > div > div >  ul{
+    list-style: none;
+    border-bottom: 1px solid darkgray;
+    border-top: 1px solid darkgray;
+    padding: 15px 0;
+    margin-bottom: 15px;
+}
+body > footer > div >  div > ul > li{
+    display: inline;
+    margin-right: 15px;
+    color: white;
+}
+body > footer > div >  div > div:nth-child(3) > p{
+    margin-left: 10px;
+    color: white;
+}
+/* logo */
+body > footer > div > div > div.columns > div:nth-child(1) > span > img{
+    height: 100px;
+}
+/* logo */
+/* footer */
+@media (max-width: 425px){
+    .shop{
+        position: absolute;
+        top: 65%;
+        left: 30%;
+        margin-top: -25px;
+         margin-left: -25px;
+         background: none;
+         border: 2px solid white;
+         padding: 5px 60px;
+         font-size: 20px;
+         color: brown;
+    }
+    .name{
+        position: absolute;
+        top: 30%;
+        left: 33%;
+        margin-top: -25px;
+         margin-left: -25px;
+    
+    }
+}
