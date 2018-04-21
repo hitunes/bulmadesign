@@ -142,7 +142,6 @@ padding: 2px;
 /* fourth */
 /* fifth */
 body > main > div > div:nth-child(8) > div{
-    background-image: url("../../assets/img/2.jpg");
     height: 150px;
     padding: 5px;
     margin: 5px;
